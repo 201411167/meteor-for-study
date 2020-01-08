@@ -1,0 +1,10 @@
+<template name="taskList">
+    <ul>
+        {{#each tasks}}
+            <li>
+            <button class="delete">&times;</button>
+            {{text}}
+            </li>
+        {{/each}}
+    </ul>
+</template>
